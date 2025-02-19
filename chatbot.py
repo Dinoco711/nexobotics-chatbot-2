@@ -15,7 +15,7 @@ CORS(app, resources={
 })
 
 # Set environment variables for Render deployment
-GOOGLE_API_KEY = ('AIzaSyA1Rnv5FsdF5Ex77cJEbg_-cCA7tMcFDt4')
+GOOGLE_API_KEY = 'AIzaSyA1Rnv5FsdF5Ex77cJEbg_-cCA7tMcFDt4'
 
 genai.configure(api_key=GOOGLE_API_KEY)
 
