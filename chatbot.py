@@ -5,7 +5,7 @@ from flask_cors import CORS
 import google.generativeai as genai
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
-from werkzeug.utils import url_quote
+from werkzeug.utils import quote
 
 # Initialize Flask app
 app = Flask(__name__)
