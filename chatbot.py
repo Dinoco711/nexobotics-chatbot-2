@@ -58,7 +58,7 @@ def log_chat_to_google_sheet(session_id, user_message, bot_response):
 
     sheets_service.spreadsheets().values().append(
         spreadsheetId=SPREADSHEET_ID,
-        range='Chats!A:D',  # Adjust the range as needed
+        range='Chats!A:E',  # Adjust the range as needed
         valueInputOption='USER_ENTERED',
         body=body
     ).execute()
